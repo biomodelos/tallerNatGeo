@@ -1,0 +1,70 @@
+---
+title: "Talleres para divulgación de material para generación de modelos de distribución de especies"
+
+output:
+
+html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: united
+    highlight: tango
+---
+
+<font size="4"><a href="Case_A.html">Case A</a></font>
+<font size="4"><a href="Case_B.html">Case B</a></font>
+<font size="4"><a href="Case_C.html">Case C</a></font>
+<font size="4"><a href="Case_D.html">Case D</a></font>
+<font size="4"><a href="Case_E.html">Case E</a></font>
+
+<center>
+![](taller_R.png){width=50% height=50%}
+</center>
+
+## Titulo acá
+
+El próximo 9 y 10 de julio habrá una nueva edición de nuestro curso en español para la visualización de datos espaciales en R. Es GRATUITO para estudiantes socios de la sociedad colombiana de mastozoología. El costo es muy asequible para profesionales (COP $100,000 para socios y COP $200,000 para no socios). 
+
+Formato de inscripción: https://forms.gle/Nya1PA2ZTBX1zKnc6
+
+## Objetivo
+
+El objetivo de este curso es proporcionar capacitación en el procesamiento, visualización y mapeo de  datos espaciales utilizando R. El curso se centra en un pequeño conjunto de paquetes populares para  estas tareas, muchos de los cuales se extraen de una colección de paquetes denominada tidyverse.  Mediante  el  uso  de  un  estudio  de  caso  con  mamíferos  neotropicales,  los  participantes  de  este  aprenderán  herramientas  básicas  sobre  cómo  convertir  fácilmente  sus  datos  en  un  formato  "ordenado", lo que facilita la verificación y el análisis de errores. También crearemos algunos gráficos  para resumir los datos y exploraremos opciones para la generación de mapas. 
+
+## Estructura del curso 
+ 
+Los principales paquetes que se utilizarán se presentan entre paréntesis. 
+ 
+### Día 1 #####
+ 
+Introducción al análisis de datos en R. Tipos de objetos en R. 
+Visualización para comprobar errores y patrones en los datos (ggplot) 
+Preparación de tablas para la generación de análisis espaciales (dplyr – tidyr) 
+ 
+### Día 2 #### 
+ 
+Importación y visualización de datos espaciales (sf, raster, rgdal). 
+Generación de mapas (raster, ggmap, leaflet) 
+
+
+## Datos 
+
+Los datos requeridos para completar el curso se encuentran disponibles acá: <a href="a.zip">LINK TEMPORAL</a>
+ 
+## Requisitos
+ 
+Computador con acceso a internet y R y RStudio previamente instalados. La instalación del programa no se explicará durante el curso.  
+ 
+La experiencia requerida en R es mínima, sin embargo, se espera que los participantes estén familiarizados con el siguiente tipo de objetos básicos R: vectores, listas y dataframes. https://rpubs.com/joser/objetos  
+ 
+Para el segundo día, un conocimiento básico sobre conceptos relacionados con sistemas de coordenadas y proyecciones geográficas será ventajoso, aunque no esencial.  
+
+## Instructores  
+ 
+Contacto: 
+
+## Créditos
+
+Creditos acá
+
+https://www.seascapemodels.org/code.html
