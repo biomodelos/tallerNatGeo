@@ -486,7 +486,7 @@ do.load(vector.packages)</code></pre>
 <p>Load the core function fit_biomodelos</p>
 <pre class="r"><code>source(&quot;R/fit_biomodelos.R&quot;)</code></pre>
 <p>In this specific example, we are going to use:</p>
-<pre><code>fit_biomodelos(
+<pre class="r"><code>fit_biomodelos(
   occ = dataSp, col_sp = &quot;acceptedNameUsage&quot;, col_lat = &quot;decimalLatitude&quot;,
   col_lon = &quot;decimalLongitude&quot;, clim_vars = &quot;worldclim&quot;, dir_clim = &quot;example/Data/env_vars/&quot;,
   dir_other = &quot;example/Data/env_vars/other/&quot;, method_M = &quot;points_MCP_buffer&quot;, dist_MOV = 74,
@@ -581,7 +581,7 @@ sample as less than 20 occurrences.</p>
 <p>We are going to test as feature classes the linear, quadratic and
 hinge functions, while beta multiplier in a sequence from 0.5 to 4 in
 steps of 0.5</p>
-<pre><code>fit_biomodelos(
+<pre class="r"><code>fit_biomodelos(
   occ = dataSp, col_sp = &quot;acceptedNameUsage&quot;, col_lat = &quot;decimalLatitude&quot;,
   col_lon = &quot;decimalLongitude&quot;, clim_vars = &quot;worldclim&quot;, dir_clim = &quot;example/Data/env_vars/&quot;,
   dir_other = &quot;example/Data/env_vars/other/&quot;, method_M = &quot;points_MCP_buffer&quot;, dist_MOV = 25,
@@ -598,7 +598,7 @@ Answer
 </summary>
 <ol style="list-style-type: decimal">
 <li>Yes, we can</li>
-<li>beta_large_sample numeric and fc_large_sample</li>
+<li>Arguments: beta_large_sample and fc_large_sample</li>
 </ol>
 </details>
 <p>Note: do not worry if you forget to customize the features classes.

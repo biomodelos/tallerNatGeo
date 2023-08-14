@@ -395,11 +395,11 @@ information.</p></li>
 </ul>
 <p>In this example, we are going to run species distribution models from
 a multiple species database storing data of five bird species: the
-Multicolored Tanager (<strong>Chlorochrysa nitidissima</strong>),
-Sooty-capped Puffbird (<em>Bucco noanamae</em>), Apolinar’s wren
-(<em>Cistothorus apolinari</em>), Chestnut-bellied Flowerpiercer
-(<em>Diglossa gloriosissima</em>), and Velvet-fronted Euphonia
-(<em>Euphonia concinna</em>).</p>
+Multicolored Tanager (<em>Chlorochrysa nitidissima</em>), Sooty-capped
+Puffbird (<em>Bucco noanamae</em>), Apolinar’s wren (<em>Cistothorus
+apolinari</em>), Chestnut-bellied Flowerpiercer (<em>Diglossa
+gloriosissima</em>), and Velvet-fronted Euphonia (<em>Euphonia
+concinna</em>).</p>
 <pre class="r"><code>dataSp &lt;- read.csv(&quot;example/Occurrences/multi_species.csv&quot;)
 View(dataSp)</code></pre>
 <p>In the occurrence database, all species names are located in the
@@ -418,7 +418,7 @@ do.load(vector.packages)</code></pre>
 <p>Load the core function fit_biomodelos</p>
 <pre class="r"><code>source(&quot;R/fit_biomodelos.R&quot;)</code></pre>
 <p>The chunk code for this example is</p>
-<pre><code>for(i in 1:length(dataSp_list)){
+<pre class="r"><code>for(i in 1:length(dataSp_list)){
   fit_biomodelos(
     occ = dataSp_list[[i]], col_sp = &quot;species&quot;, col_lat = &quot;lat&quot;,
     col_lon = &quot;lon&quot;, clim_vars = &quot;worldclim&quot;, dir_clim = &quot;example/Data/env_vars/&quot;,
