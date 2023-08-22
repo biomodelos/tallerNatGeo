@@ -297,17 +297,23 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+content: "";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "\e258";
-font-family: 'Glyphicons Halflings';
+content: "";
 border: none;
+}
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "";
+font-family: 'Glyphicons Halflings';
+display: inline-block;
+padding: 10px;
+border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -509,10 +515,10 @@ just before of the first run, like this
 <pre><code>##              package successfully_installed
 ## 1               plyr                   TRUE
 ## 2              dplyr                   TRUE
-## 3            automap                  FALSE
+## 3            automap                   TRUE
 ## 4    PresenceAbsence                   TRUE
 ## 5           devtools                   TRUE
-## 6  CoordinateCleaner                  FALSE
+## 6  CoordinateCleaner                   TRUE
 ## 7                 sf                   TRUE
 ## 8             spThin                   TRUE
 ## 9             raster                   TRUE
@@ -521,10 +527,10 @@ just before of the first run, like this
 ## 12           ENMeval                   TRUE
 ## 13             rgdal                   TRUE
 ## 14             rJava                   TRUE
-## 15             kuenm                  FALSE
+## 15             kuenm                   TRUE
 ## 16             terra                   TRUE
 ## 
-## ENMeval version 2.0.3 is FALSE</code></pre>
+## ENMeval version 2.0.3 is TRUE</code></pre>
 <p>A message showing a table with column names “package” and
 “successfully_completed” will be shown in the console (corner left of
 the RStudio window), as well as the ENMeval version installed. For
@@ -556,12 +562,7 @@ etc. Then re-run <code>do.check(vector.packages)</code></p>
 <li>Load the installed packages with</li>
 </ol>
 <pre class="r"><code>do.load(vector.packages)</code></pre>
-<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
-## logical.return = TRUE, : there is no package called &#39;automap&#39;</code></pre>
-<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
-## logical.return = TRUE, : there is no package called &#39;CoordinateCleaner&#39;</code></pre>
-<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
-## logical.return = TRUE, : there is no package called &#39;kuenm&#39;</code></pre>
+<pre><code>## Warning: package &#39;raster&#39; was built under R version 4.2.2</code></pre>
 <pre><code>## [1] &quot;ok&quot;</code></pre>
 <ol start="9" style="list-style-type: decimal">
 <li>Create the structure of folders typing and run.</li>
