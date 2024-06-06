@@ -13,20 +13,31 @@ El encuentro se realizará en Español.
 ### Día 1 
 
 **8:30-9:00 am:** Llegada de los asistentes. (Todos)
+
 **9:00 am**: Palabras de Bienvenida y misión Institucional
+
 **9:30 am-9:50 am**: Proyecto “Developing an integrated species distribution modelling system to identify complementary conservation areas in Colombia; AI for Earth Innovation Grant NGS-86896T-21”.
+
 **9:50 am-10:20 am**: Flujo de modelamiento de distribuciones de especies
+
 **10:20-10:40 am**: Receso.
+
 **10:40-11:00 am**: Presentación BioModelos
+
 **11:00-11:20 am**: Presentación Herramienta - biomodelos-sdm tool
+
 **11:20-12:30 pm**: Taller 1. Instalación de paquetes para el desarrollo del taller siguiendo las [instrucciones](setup.html) del paquete biomodelos-sdm tool
 
 **12:30-1:30 pm**: Almuerzo
 
 **1:30-3:00 pm**: Taller 2. Identificación de la distribución potencial de especies con un número adecuado de registros [*Chlorochrysa nitidissima*](working-example-1.html) y con pocos registros [*Bucco noanamae*](working-example-2.html).
+
 **3:30-3:40 pm**: Receso
+
 **3:40-4:30 pm**: Taller 3. Identificación de la distribución potencial al proyectar a una extensión espacial diferente [Myiopsitta monachus](working-example-3.html) y periodos temporales diferentes [Euphonia concinna](working-example-4.html)
+
 **4:30-5:00 pm**: Lecciones aprendidas y conclusiones de la sesión (Todos)
+
 **5:00 pm**: Cierre del taller
 
 
@@ -34,12 +45,19 @@ Día 2
 
 
 **8:30-9:00 am**: Llegada de los asistentes.
+
 **9:00-10:00 am**: Taller 4. Identificación de la distribución potencial actual y futura, [automatizada para varias especies](working-example-5.html).
+
 **10:30 am-11:00 am**: Paseo por Wallace, paseo por BioModelos GEE
+
 **11:00-11:20 am**: Receso
+
 **11:20-11:50 pm**: BioModelos como herramienta para la apropiación social del conocimiento. 
+
 **11:50-12:30 pm**: Lecciones aprendidas y conclusiones de la sesión (Todos)
+
 **12:30-1:30 pm**: Almuerzo
+
 **1:30 pm- 2:00 pm**: Paseo por BioTablero, despedida
 
 
