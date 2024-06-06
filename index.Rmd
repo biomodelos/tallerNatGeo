@@ -41,11 +41,11 @@ El encuentro se realizará en Español.
 
 **12:30-1:30 pm**: Almuerzo
 
-**1:30-3:00 pm**: Taller 2. Identificación de la distribución potencial de especies con un número adecuado de registros [*Chlorochrysa nitidissima*](working-example-1.html) y con pocos registros [*Bucco noanamae*](working-example-2.html).
+**1:30-3:00 pm**: Taller 2. Identificación de la distribución potencial de especies con un número adecuado de registros [*Chlorochrysa nitidissima*](https://biomodelos.github.io/tallerNatGeo/working-example-1.html) y con pocos registros [*Bucco noanamae*](https://biomodelos.github.io/tallerNatGeo/working-example-2.html).
 
 **3:30-3:40 pm**: Receso
 
-**3:40-4:30 pm**: Taller 3. Identificación de la distribución potencial al proyectar a una extensión espacial diferente [Myiopsitta monachus](working-example-3.html) y periodos temporales diferentes [Euphonia concinna](working-example-4.html)
+**3:40-4:30 pm**: Taller 3. Identificación de la distribución potencial al proyectar a una extensión espacial diferente [Myiopsitta monachus](https://biomodelos.github.io/tallerNatGeo/working-example-3.html) y periodos temporales diferentes [Euphonia concinna](https://biomodelos.github.io/tallerNatGeo/working-example-4.html)
 
 **4:30-5:00 pm**: Lecciones aprendidas y conclusiones de la sesión (Todos)
 
@@ -57,7 +57,7 @@ El encuentro se realizará en Español.
 
 **8:30-9:00 am**: Llegada de los asistentes.
 
-**9:00-10:00 am**: Taller 4. Identificación de la distribución potencial actual y futura, [automatizada para varias especies](working-example-5.html).
+**9:00-10:00 am**: Taller 4. Identificación de la distribución potencial actual y futura, [automatizada para varias especies](https://biomodelos.github.io/tallerNatGeo/working-example-5.html).
 
 **10:30 am-11:00 am**: Paseo por Wallace, paseo por BioModelos GEE
 
