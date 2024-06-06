@@ -37,7 +37,7 @@ El encuentro se realizará en Español.
 
 **11:00-11:20 am**: Presentación Herramienta - biomodelos-sdm tool
 
-**11:20-12:30 pm**: Taller 1. Instalación de paquetes para el desarrollo del taller siguiendo las [instrucciones](setup.html) del paquete biomodelos-sdm tool
+**11:20-12:30 pm**: Taller 1. Instalación de paquetes para el desarrollo del taller siguiendo las [instrucciones](https://biomodelos.github.io/tallerNatGeo/setup) del paquete biomodelos-sdm tool
 
 **12:30-1:30 pm**: Almuerzo
 
